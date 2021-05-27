@@ -1,0 +1,18 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: ClusterServiceVersion
+metadata:
+  annotations:
+  name: empty-csv.v0.0.1
+spec:
+  description: This is an empty ClusterServiceVersion.
+  displayName: Empty ClusterServiceVersion
+  keywords:
+  - integration-test
+  maintainers:
+  - email: corp@example.com
+    name: Some Corp
+  maturity: alpha
+  provider:
+    name: Example
+    url: www.example.com
+  version: 0.0.1
